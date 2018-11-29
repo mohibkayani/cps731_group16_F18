@@ -1,27 +1,30 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import ButtonAppBar from './ButtonAppBar';
+import SearchM from './SearchM';
+
+
+const styles = {
+  root: {
+    top: -69,
+    width: 600
+  },
+};
 
 class App extends Component {
+  
   render() {
     return (
       <div className="App">
       <ButtonAppBar></ButtonAppBar>
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <br></br>
+        <h3>Welcome to deal finder, search deals below</h3>
+      </div>
+      <div className="App-header">
+        <SearchM style={styles.root}></SearchM>
+        </div>
+
       </div>
     );
   }
