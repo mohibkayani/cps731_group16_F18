@@ -33,6 +33,7 @@ function ButtonAppBar(props) {
           <Typography variant="title" color="inherit" className={classes.flex}>
             Deal Finder
           </Typography>
+          <Button href="/categories"color="inherit">Categories</Button>
           <Button href="/profile"color="inherit">Profile</Button>
           <Button color="inherit">Login</Button>
         </Toolbar>
