@@ -4,6 +4,7 @@ import ButtonAppBar from './ButtonAppBar';
 import { BrowserRouter, Route } from 'react-router-dom';
 import UserProfile from './UserProfile';
 import Home from './Home';
+import Login from './Login';
 
 class App extends Component {
   
@@ -14,6 +15,8 @@ class App extends Component {
         <ButtonAppBar></ButtonAppBar>
         <Route exact path="/" component={Home} />
         <Route path="/profile" component={UserProfile} />
+        <Route path="/login" component={Login} />
+
         </div>
       </BrowserRouter>
     );

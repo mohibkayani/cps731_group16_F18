@@ -41,9 +41,7 @@ import source from './source';
 // ]
 
 export default class SearchM extends Component {
-  favs = [];
   favs = JSON.parse(localStorage.getItem("favs"));
-
   componentWillMount() {
     this.resetComponent()
   }
@@ -64,6 +62,9 @@ export default class SearchM extends Component {
   };
 
   setFav = () => {
+    if(this.favs == null){
+      this.favs = []
+    }
     this.favs.push(this.state.item);
     console.log(this.state);
     localStorage.setItem("favs", JSON.stringify(this.favs));
