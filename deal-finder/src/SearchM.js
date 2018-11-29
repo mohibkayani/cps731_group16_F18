@@ -67,7 +67,8 @@ export default class SearchM extends Component {
     this.favs.push(this.state.item);
     console.log(this.state);
     localStorage.setItem("favs", JSON.stringify(this.favs));
-    alert(this.state.value);
+    alert("Product saved to favs list");
+    this.setState({ open: false });
   };
 
   resetComponent = () => this.setState({ isLoading: false, results: [], value: '' })

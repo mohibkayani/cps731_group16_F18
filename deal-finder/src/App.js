@@ -1,34 +1,21 @@
 import React, { Component } from 'react';
 import './App.css';
 import ButtonAppBar from './ButtonAppBar';
-import SearchM from './SearchM';
+import { BrowserRouter, Route } from 'react-router-dom';
 import UserProfile from './UserProfile';
-
-
-const styles = {
-  root: {
-    top: -69,
-    width: 600
-  },
-};
+import Home from './Home';
 
 class App extends Component {
   
   render() {
     return (
-      <div className="App">
-      <ButtonAppBar></ButtonAppBar>
-      <div>
-        <br></br>
-        <h3>Welcome to deal finder, search deals below</h3>
-      </div>
-      <div className="App-header">
-        <SearchM style={styles.root}></SearchM>
-        <UserProfile/>
-
+      <BrowserRouter>
+        <div className="App">
+        <ButtonAppBar></ButtonAppBar>
+        <Route exact path="/" component={Home} />
+        <Route path="/profile" component={UserProfile} />
         </div>
-      
-      </div>
+      </BrowserRouter>
     );
   }
 }
