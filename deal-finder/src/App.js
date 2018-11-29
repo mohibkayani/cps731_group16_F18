@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import ButtonAppBar from './ButtonAppBar';
 import SearchM from './SearchM';
+import UserProfile from './UserProfile';
 
 
 const styles = {
@@ -23,8 +24,10 @@ class App extends Component {
       </div>
       <div className="App-header">
         <SearchM style={styles.root}></SearchM>
-        </div>
+        <UserProfile/>
 
+        </div>
+      
       </div>
     );
   }
