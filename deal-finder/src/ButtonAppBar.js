@@ -34,6 +34,7 @@ function ButtonAppBar(props) {
             Deal Finder
           </Typography>
           <Button href="/categories"color="inherit">Categories</Button>
+          <Button href="/signup"color="inherit">Sign Up</Button>
           <Button href="/profile"color="inherit">Profile</Button>
           <Button href="/login"color="inherit">Login</Button>
         </Toolbar>

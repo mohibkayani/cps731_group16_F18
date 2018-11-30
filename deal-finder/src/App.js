@@ -6,6 +6,7 @@ import UserProfile from './UserProfile';
 import Home from './Home';
 import Login from './Login';
 import Categories from './Categories';
+import Signup from './Signup'
 
 class App extends Component {
   
@@ -18,6 +19,8 @@ class App extends Component {
         <Route path="/profile" component={UserProfile} />
         <Route path="/login" component={Login} />
         <Route path="/categories" component={Categories} />
+        <Route path="/signup" component={Signup} />
+
 
         </div>
       </BrowserRouter>

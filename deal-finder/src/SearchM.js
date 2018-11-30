@@ -34,6 +34,10 @@ export default class SearchM extends Component {
     this.setState({ open: false });
   };
 
+  handleClose = () => {
+    this.setState({ open: false });
+  };
+
   setFav = () => {
     if(this.favs == null){
       this.favs = []
