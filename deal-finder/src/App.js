@@ -5,6 +5,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import UserProfile from './UserProfile';
 import Home from './Home';
 import Login from './Login';
+import Categories from './Categories';
 
 class App extends Component {
   
@@ -16,6 +17,7 @@ class App extends Component {
         <Route exact path="/" component={Home} />
         <Route path="/profile" component={UserProfile} />
         <Route path="/login" component={Login} />
+        <Route path="/categories" component={Categories} />
 
         </div>
       </BrowserRouter>
