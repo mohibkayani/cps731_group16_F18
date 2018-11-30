@@ -78,7 +78,36 @@ const source = [
       "description": "JBL Wireless Headphones",
       "image": "https://i5.walmartimages.ca/images/Large/852/3_1/999999-050036338523_1.jpg?odnBound=460",
       "price": "$49.98"
+    },{
+      "title": "Seagate 2TB SATA Hard Drive",
+      "category": "computers",
+      "link": "https://www.canadacomputers.com/product_info.php?cPath=15_1086_210_212&item_id=098711",
+      "description": "Seagate BarraCuda 2TB SATA 3.5'' Desktop Hard Drives (ST2000DM006)",
+      "image": "https://ccimg.canadacomputers.com/Products/600x600/098/098711/49034.jpg",
+      "price": "$69.99"
+    },{
+      "title": "Western Digital 1TB SSD",
+      "category": "computers",
+      "link": "https://www.canadacomputers.com/product_info.php?cPath=179_1229_1088&item_id=114570",
+      "description": "WD Blue™ 3D NAND SATAIII SSD, 1TB Read: 560MB/s; Write: 530MB/s (WDS100T2B0A)",
+      "image": "https://ccimg.canadacomputers.com/Products/600x600/707/733/114570/41701.jpg",
+      "price": "$179.99"
+    },{
+      "title": "Epson All-In-One Printer",
+      "category": "computers",
+      "link": "https://www.canadacomputers.com/product_info.php?cPath=34_1170_458&item_id=123099",
+      "description": "Epson WorkForce Pro WF-3720 All-in-One Printer Print / Copy / Scan / Fax 4-Colour DURABrite Ultra Pigment Ink 10 ISO PPM 250-sheet Paper Tray USB/Ethernet/Wi-Fi Connectivity",
+      "image": "https://ccimg.canadacomputers.com/Products/600x600/94/598/123099/27010.jpg",
+      "price": "$89.99"
+    },{
+      "title": "Logitech Mouse and Keyboard Combo",
+      "category": "computers",
+      "link": "https://www.canadacomputers.com/product_info.php?cPath=21_273_581&item_id=120221",
+      "description": "Logitech MK540 Advanced WIRELESS Keyboard MOUSE COMBO (920-008671)",
+      "image": "https://ccimg.canadacomputers.com/Products/600x600/276/116/120221/58276.jpg",
+      "price": "$59.99"
     },
+
   ]
 
   export default source;
