@@ -106,6 +106,41 @@ const source = [
       "description": "Logitech MK540 Advanced WIRELESS Keyboard MOUSE COMBO (920-008671)",
       "image": "https://ccimg.canadacomputers.com/Products/600x600/276/116/120221/58276.jpg",
       "price": "$59.99"
+    },{
+      "title": "Staples Leather Office Chair",
+      "category": "office",
+      "link": "https://www.staples.ca/en/Staples-Mid-Back-Bonded-Leather-Manager-s-Chair/product_917746_1-CA_1_20001",
+      "description": "Staples Mid-Back Bonded-Leather Manager's Chair",
+      "image": "https://www.staples-3p.com/s7/is/image/Staples/s0422431_sc7?$splssku$",
+      "price": "$97.95"
+    },{
+      "title": "Staples Mesh Office Chair",
+      "category": "office",
+      "link": "https://www.staples.ca/en/Staples-Mesh-Task-Chair-Black/product_394403_1-CA_1_20001",
+      "description": "Staples Mesh Task Chair, Black,  Item: 394403",
+      "image": "https://www.staples-3p.com/s7/is/image/Staples/m000520202_sc7?$splssku$",
+      "price": "$97.95"
+    },{
+      "title": "Epson Projector",
+      "category": "office",
+      "link": "https://www.staples.ca/en/epson-ex9220-pro-wireless-1080p-wuxga-3lcd-projector-v11h846020-f/product_2802108_1-CA_1_20001",
+      "description": "Epson EX9220 Pro Wireless 1080p+/WUXGA 3LCD Projector (V11H846020-F)",
+      "image": "https://www.staples-3p.com/s7/is/image/Staples/m006769225_sc7?$splssku$",
+      "price": "$899.99"
+    },{
+      "title": "Asus 17.3inch Gaming Laptop",
+      "category": "computers",
+      "link": "https://www.staples.ca/en/asus-gl-series-gl703vd-rs71-cb-17-3-inch-notebook-2-8-ghz-intel-core-i7-7700hq-1-tb-sshd-16-gb-ddr4-windows-10-home/product_2868639_1-CA_1_20001",
+      "description": "Asus GL Series GL703VD-RS71-CB 17.3-inch Notebook, 2.8 GHz Intel Core i7-7700HQ, 1 TB SSHD, 16 GB DDR4, Windows 10 Home",
+      "image": "https://www.staples-3p.com/s7/is/image/Staples/m007032140_sc7?$splssku$",
+      "price": "$1399.99"
+    },{
+      "title": "Staples Power Strip",
+      "category": "office",
+      "link": "https://www.staples.ca/en/Staples-6-Outlet-Grounded-Power-Strip-15-Cord-White/product_977954_1-CA_1_20001",
+      "description": "Staples® 6-Outlet Grounded Power Strip, 15' Cord, White",
+      "image": "https://www.staples-3p.com/s7/is/image/Staples/s0343256_sc7?$splssku$",
+      "price": "$10.00"
     },
 
   ]
