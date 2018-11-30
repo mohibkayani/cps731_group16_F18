@@ -45,7 +45,7 @@ const source = [
       "title": "MacBook Air",
       "category": "computers",
       "link": "https://www.apple.com/ca/shop/buy-mac/macbook-air/space-grey-1.6ghz-dual-core-processor-with-turbo-boost-up-to-3.6ghz-128gb",
-      "description": "MacBook Air 13.3" with Touch ID, 8th Generation Intel Core i5 Processor, 8GB RAM, 128GB SSD and macOS ",
+      "description": "MacBook Air 13.3 with Touch ID, 8th Generation Intel Core i5 Processor, 8GB RAM, 128GB SSD and macOS ",
       "image": "https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/m/ac/macbook/air/macbook-air-space-gray-config-201810?wid=539&hei=312&fmt=jpeg&qlt=95&.v=1539386809517",
       "price": "$1499.00"
     },
